@@ -54,7 +54,7 @@ class Irm(object):
         :param user2theta:
         :return:
         """
-        ##################内层单轮迭代－平方差损失####################
+        ##################内层单轮迭代－平方差损失##################
         num_users = len(user2theta.keys())
         gradient_b = 0
         gradient_a = 0
